@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langgraph
+langchain-cohere
+python-dotenv
+pydantic
+FastAPI
+streamlit
