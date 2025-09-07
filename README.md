@@ -14,6 +14,20 @@ The chatbot helps users explore programs from [IamIronLady.com](https://iamironl
 
 ---
 
+##  Project Structure
+```
+IRON-LADY-CHATBOT/
+│── app.py # FastAPI backend
+│── chatbot.py # LangGraph chatbot logic
+│── vectordb.py # Vector DB setup (FAISS/Chroma)
+│── ui.py # Streamlit frontend
+│── requirements.txt # Dependencies
+│── .env # Environment variables
+│── venv/ # Virtual environment
+```
+
+---
+
 ##  Tech Stack  
 
 - **Frontend:** Streamlit  
