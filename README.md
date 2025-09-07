@@ -1,11 +1,11 @@
-# Iron Lady Chatbot 💬🤖
+# Iron Lady Chatbot
 
 An AI-powered **Leadership Essentials Chatbot** built using **LangGraph, FastAPI, Streamlit, and Vector Databases**.  
 The chatbot helps users explore programs from [IamIronLady.com](https://iamironlady.com/individualPrograms/Leadership_Essentials_Program), recall conversations, and provide an interactive Q&A experience.  
 
 ---
 
-## 🚀 Features
+##  Features
 - **RAG (Retrieval-Augmented Generation):** Answers questions from Leadership Essentials Program content.  
 - **LangGraph Memory:** Keeps track of conversation history with persistence.  
 - **FastAPI Backend:** Handles chatbot requests via REST API.  
@@ -14,7 +14,7 @@ The chatbot helps users explore programs from [IamIronLady.com](https://iamironl
 
 ---
 
-## ⚙️ Tech Stack  
+##  Tech Stack  
 
 - **Frontend:** Streamlit  
 - **Backend:** FastAPI  
@@ -26,7 +26,7 @@ The chatbot helps users explore programs from [IamIronLady.com](https://iamironl
 
 ---
 
-## 🏗️ Architecture  
+##  Architecture  
 
 ```mermaid
 flowchart TD
@@ -45,7 +45,7 @@ flowchart TD
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repo**
 ```bash
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 4. **Setup environment variables**
 Create a .env file in the project root:
 ```ini
-GEMINI_API_KEY=your_openai_key_here
+GROQ_API_KEY=your_openai_key_here
 ```
 
 5. **Run Backend (FastAPI)**
@@ -86,7 +86,7 @@ Access:
 
 ---
 
-## 📌 Roadmap / Future Enhancements
+##  Roadmap / Future Enhancements
 
 - Add multi-program support (Advanced Leadership, Corporate Programs).
 
